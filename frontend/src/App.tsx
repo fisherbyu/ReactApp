@@ -8,15 +8,23 @@ import './App.css';
 import data from "./TeamList.json";
 const teams = data.teams;
 
+function Header() {
+  return (
+    <div>
+
+    </div>
+  );
+}
+
 class TeamCard extends React.Component<{ school: string; name: string; city: string; state: string }> {
   render() {
     const team = this.props;
     return (
-      <div>
+      <div className='card'>
         <h2>{team.school}:</h2>
-        <h4>Mascot: {team.name}</h4>
-        <h3>{team.city}, {team.state}</h3>
-        <br />
+        <h3>Mascot: {team.name}</h3>
+        <h4>{team.city}, {team.state}</h4>
+        <br /><br />
       </div>
     )
   }
@@ -49,9 +57,22 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-    <div>
-      <TeamList />
-    </div>
+    <body>
+      <div className="bg-dark text-white p-2">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col navbar-brand">March Madness Team List</div>
+          </div>
+        </div>
+      </div>
+      <div className="row m-1 p-1">
+        <div className="col-9">
+          <div>
+            <TeamList />
+          </div>
+        </div>
+      </div>
+    </body>
   );
 }
 
