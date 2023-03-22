@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "a2Zp72D0EhptwOqb24ZfSxPnPDCccO+UcG+VTCMQTalliyKvge1kXzfN5goJj0PxG0aFGTMms2jJYPa+/4kw8A==",
+  "success": true,
+  "projectFilePath": "/Users/andrewfisher/Library/CloudStorage/OneDrive-BrighamYoungUniversity/Documents/School Files/2022-2023 Year BYU/Winter 2023/IS 413/Projects/ReactApp/backend/ReactApp/ReactApp.csproj",
+  "expectedPackageFiles": [
+    "/Users/andrewfisher/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/andrewfisher/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/andrewfisher/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/andrewfisher/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/andrewfisher/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/andrewfisher/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
